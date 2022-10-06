@@ -9,17 +9,39 @@
     <script src="quiz.js"></script>
 </head>
 <body>
-    <div class = "quiz-container">
-        <h1>Question</h1>
-        <ul>
-            <li>Answer1</li>
-            <li></li>
-            <li></li>
-            <li></li>
+    <div class = "info">
+        <div class = "high-scores-container float-left">
+            <button id = "show-high-scores">high scores</button>
+            <div>
+                <ul id = "high-scores-list">
+
+                </ul>
+            </div>
+        </div>
+        <div class = "timer-container float-right">
+            time = <span class = "time-left"></span>
+        </div>
+    </div>    
+
+
+
+    <div id = "quiz-container">
+        <h1 id = "question">Question</h1>
+        <ul class = "answer-list">
+            <li id = "answer1">Answer1</li>
+            <li id = "answer2"></li>
+            <li id = "answer3"></li>
+            <li id = "answer4"></li>
         </ul>
+        <button id = "next-btn">Next</button>
     </div>
 
     
+    <div id = "start-page" >
+        <h1>take a quiz</h1>
+        <p>test your knawledge</p>
+        <button id = "start-btn" >Start</button>
+    </div>
 
     <script src = "script.js"></script>
 </body>
