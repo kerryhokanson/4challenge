@@ -5,6 +5,7 @@ var quizData = [
         answer2:"dancing on Mars",
         answer3:"doing only me",
         answer4:"document object model",
+        correct: "answer4"
 
     },
     {
@@ -56,7 +57,7 @@ var quizData = [
         correct:"answer4",
     },
     {
-        question:'in:{var element = document.getElementById("element-name");} "element-name"',
+        question:'in:{var element = document.getElementById("element-name");} \n"element-name"',
         answer1:"refers to a id",
         answer2:"refers to an class",
         answer3:"refers to a div",
