@@ -51,6 +51,20 @@
     justify-content: space-between;
 }
 
+.selected{
+    border: 2px solid orange;
+}
+
+
+#end-page{
+    display:block;
+    border: 3px solid blue;
+    background-color: aqua;
+    border-radius: 22px;
+    margin-top: 10em;
+    padding-left: 15px;
+}
+
 
 
 
